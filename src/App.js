@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './components/layout/Navbar'
 import Countries from './components/countries/Countries'
 import Footer from './components/layout/Footer'
-import Form from './components/Form'
+import SearchForm from './components/countries/SearchForm'
 import axios from 'axios';
 import './App.css';
 
@@ -46,7 +46,7 @@ getCountries = async (e) => {
            : <span></span> 
          }
       
-         <Form getCountries={this.getCountries}/>
+         <SearchForm getCountries={this.getCountries}/>
          <Countries countries={this.state.countries} />
 
          {this.state.countries.length < 1 ?

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Countries = props => (
 
   
-
+  // all css classes found in app.css
   <div className="grid-2 mb-15">
         { props.countries.map((country) => {
            return (

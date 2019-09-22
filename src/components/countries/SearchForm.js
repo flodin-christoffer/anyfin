@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Form = props => (
+const SearchForm = props => (
 
   <form  className="form" onSubmit={props.getCountries} >
     <input className=" border-radius" type="text" name="countryName" placeholder="Search Countries..."
@@ -10,4 +10,4 @@ const Form = props => (
   </form>
 );
 
-export default Form;
+export default SearchForm;
