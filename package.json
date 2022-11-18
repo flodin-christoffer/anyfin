@@ -10,7 +10,7 @@
     "react-dom": "^16.8.6",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-sticky-footer": "0.1.0-rc3",
     "yarn": "^1.17.3"
   },
